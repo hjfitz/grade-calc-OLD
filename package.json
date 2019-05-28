@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "parcel lib/index.html"
+    "build": "parcel build lib/index.html -d docs/",
+    "dev": "parcel lib/index.html"
   },
   "dependencies": {
     "lodash": "^4.17.11",
